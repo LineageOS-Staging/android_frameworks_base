@@ -19084,4 +19084,11 @@ public class ActivityManagerService extends IActivityManager.Stub
     Freezer getFreezer() {
         return mFreezer;
     }
+
+    @Override
+    public boolean shouldForceCutoutFullscreen(String packageName) {
+        return mActivityTaskManager.shouldForceCutoutFullscreen(packageName);
+    }
+
+
 }
