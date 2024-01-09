@@ -31,4 +31,8 @@
     <!-- Button to restart SystemUI, within the Restart Options dialog -->
      <string name="global_action_restart_systemui">SystemUI</string>
 
+
+     <!-- AI Assistant affordance [CHAR LIMIT=32] -->
+     <string name="accessibility_assistant_button">AI Assistant</string>
+
 </resources>
